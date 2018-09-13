@@ -5,7 +5,7 @@ class copyfiledata
 	public static void main(String[] args) throws IOException 
 	{
 		BufferedWriter bw=new BufferedWriter(new FileWriter("file1.txt"));
-		bw.write ("this is a file and my name is pushkar");
+		bw.write ("this file will show updated items");
 		bw.close();
 		InputStream in=new FileInputStream(new File("file1.txt"));
 		OutputStream out=new FileOutputStream(new File("file 2.txt"));
